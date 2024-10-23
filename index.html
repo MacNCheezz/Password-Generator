@@ -6,13 +6,16 @@
         <div id="hero">
             <h1>Generate a <span style="color:#4adf86"><br>random password</h1>
             <p>Never use an insecure password again</p>
-            <button id="hbutton">Generate Passwords</button>
+            <button id="hbutton" onclick="randomize()">Generate Passwords</button>
         </div>
         <div id = "selection">
-            <button class="rbutton">12345678912345</button>
-            <button class="rbutton">12345678912345</button>
+            <button class="rbutton" id="p1"></button>
+            <sl-copy-button class="c" from="p1"></sl-copy-button>
+            <button class="rbutton" id="p2" ></button>
+            <sl-copy-button class="c" from="p2"></sl-copy-button>
         </div>
         
         <script src="index.js"></script>
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.17.1/cdn/shoelace.js"></script>
     </body>
 </html>

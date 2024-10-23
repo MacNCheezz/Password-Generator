@@ -2,12 +2,18 @@ body {
     margin: 40px;
     background-color: #1f2937;
     color: white;
-    
+    max-width: fit-content;
+    margin-inline: auto;
+}
+
+h1 {
+    font-size: 35px;
 }
 
 p {
     color: #b3b4ba;
     margin: -10px 0 20px 0 ;
+    font-size: 20px;
 }
 
 button {
@@ -23,6 +29,12 @@ button {
     border: 0;
     padding: 10px 15px;
     margin: 20px 0px 30px 0px;
+    transition: all 0.2s ease-in-out;
+}
+
+#hbutton:hover {
+    background-color: #059669;
+    transform: scale(1.1);
 }
 
 #hero {
@@ -35,7 +47,17 @@ button {
     height: 32px;
     color: #55f991;
     margin-top: 30px;
+    transition: all 0.2s ease-in-out;
 }
+
+.c {
+    margin-top: 38px;
+}
+
+/* .rbutton:hover {
+    background-color: #111827;
+    transform: scale(1.1);
+} */
 
 #selection {
     display: flex;
