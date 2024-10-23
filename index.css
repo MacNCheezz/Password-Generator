@@ -2,8 +2,8 @@ body {
     margin: 40px;
     background-color: #1f2937;
     color: white;
-    max-width: fit-content;
-    margin-inline: auto;
+    /* max-width: fit-content;
+    margin-inline: auto; */
 }
 
 h1 {
@@ -43,11 +43,11 @@ button {
 
 .rbutton {
     background-color: #273549;
-    width: 200px;
+    width: 160px;
     height: 32px;
     color: #55f991;
     margin-top: 30px;
-    transition: all 0.2s ease-in-out;
+    /* transition: all 0.2s ease-in-out; */
 }
 
 .c {
